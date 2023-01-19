@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lista de convidados
+    </title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <center>
+        <h1>lista de convidados</h1>
+        <div>
+            <input type="text" placeholder="insira nome" id="nome">
+            <button onclick="enviar_nome()">enviar</button>
+            <hr>
+            <div id="mostrar_nome"></div>
+            <hr>
+            <h2>mostrar lista</h2>
+            <button onclick="mostrar_lista()">mostrar lista</button>
+            <p id="lista"></p>
+            <hr>
+            <h2>lista organizada</h2>
+            <button onclick="organizar_lista()">organizar lista</button>
+            <div id="lista_organizada"></div>
+            <h2>pesquisar nome</h2>
+            <input type="text" placeholder="insira nome pesquisado" id="pesquisa">
+            <button onclick="pesquisar()">pesquisar nome</button>
+            <p id="nome_pesquisado"></p>
+        </div>
+    </center>
+       <script src="main.js"></script> 
+</body>
+</html>
